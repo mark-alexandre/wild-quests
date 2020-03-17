@@ -73,7 +73,8 @@ All my quests solutions are here.
   </li>   
   <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/wild/02.txt">
     Algorithmique et pseudo-code</a>
-  </li><a href="https://github.com/Moxymore67/wild-quests/blob/master/wild/03.txt">
+  </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/wild/03.txt">
     Faire sa veille technologique</a>
   </li>
 </ol>
