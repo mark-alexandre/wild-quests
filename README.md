@@ -49,9 +49,19 @@ All my quests solutions are here.
 
 <h2>PHP</h2>
 <ol>
-  <li>Vers tes premiers pas en PHP</li>
-  <li>Déclarer et afficher des variables</li>
-  <li>Les chaînes de caractères en PHP</li>
-  <li>Les tableaux && boucles en PHP</li>
-  <li>Les conditions en PHP</li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/php/01.txt">
+    Vers tes premiers pas en PHP</a>
+  </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/php/02.php">
+    Déclarer et afficher des variables</a>
+  </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/php/03.php">
+    Les chaînes de caractères en PHP</a>
+  </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/php/04.php">
+    Les tableaux && boucles en PHP</a>
+  </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/php/05.php">
+    Les conditions en PHP</a>
+  </li>
 </ol>
