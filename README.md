@@ -11,7 +11,7 @@ All my quests solutions are here.
   <li>Les conditions en PHP</li>
 </ol>
 
-<h2>Integration</h2>
+<h2>INTEGRATION</h2>
 <ol>
   <li>Découvre l'UX Design : l'utilisabilité</li>
   <li>Construire un wireframe</li>
