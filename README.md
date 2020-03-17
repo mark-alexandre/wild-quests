@@ -8,9 +8,15 @@ All my quests solutions are here.
   <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/01.txt">
     GitHub : un petit tour !</a>
   </li>
-  <li>GitHub et Git : les fondamentaux</li>
-  <li>Git : undo !</li>
-  <li>Github et Git : gérer un conflit</li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/02.txt">
+    GitHub et Git : les fondamentaux</a>
+  </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/03.txt">
+    Git : undo !</a>
+  </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/04.txt">
+    Github et Git : gérer un conflit</a>
+  </li>
 </ol>
 
 <h2>INTEGRATION</h2>
