@@ -65,3 +65,15 @@ All my quests solutions are here.
     Les conditions en PHP</a>
   </li>
 </ol>
+
+<h2>WILD</h2>
+<ol>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/wild/01.txt">
+    Commençons par apprendre à apprendre</a>
+  </li>   
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/wild/02.txt">
+    Algorithmique et pseudo-code</a>
+  </li><a href="https://github.com/Moxymore67/wild-quests/blob/master/wild/03.txt">
+    Faire sa veille technologique</a>
+  </li>
+</ol>
