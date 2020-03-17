@@ -1,0 +1,68 @@
+mooks@mooks-KPL-W0X:~/quetes/shell/planets$ find
+.
+./inhabited
+./inhabited/earth.jpeg
+./inhabited/coruscant.jpeg
+./inhabited/arrakis.jpeg
+./inhabited/cybertron.jpeg
+./real
+./real/telluric
+./real/telluric/venus.jpeg
+./real/telluric/mars.jpeg
+./real/telluric/earth.jpeg
+./real/telluric/mercury.jpeg
+./real/gas-giants
+./real/gas-giants/uranus.jpeg
+./real/gas-giants/saturn.jpeg
+./real/gas-giants/neptune.jpeg
+./real/gas-giants/jupiter.jpeg
+./fictional
+./fictional/coruscant.jpeg
+./fictional/arrakis.jpeg
+./fictional/cybertron.jpeg
+
+
+
+mooks@mooks-KPL-W0X:~/quetes/shell/planets$ history
+239  curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+  240  unzip planets.zip
+  241  clear
+  242  mkdir real fictional inhabited
+  243  ls
+  244  cd planets/real
+  245  cd planets
+  246  cd
+  247  cd quetes/shell
+  248  clear
+  249  cd planets
+  250  mkdir real fictional inhabited
+  251  ls
+  252  cd real
+  253  mkdir telluric gas-giants dwarf-planets
+  254  ls
+  255  cd ..
+  256  ls
+  258  mv mercury.jpeg venus.jpeg earth.jpeg mars.jpeg ~/quetes/shell/planets/real/telluric
+  259  mv jupiter.jpeg saturn.jpeg uranus.jpeg neptune.jpeg ~/quetes/shell/planets/real/gas-giants
+  260  mv pluto.jpeg ~/quetes/shell/planets/real/dwarf-planets
+  261  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg ~/quetes/shell/planets/fictional
+  263  mv /fictional/*.* /inhabited
+  264  cd fictional
+  267  mv *.* ../inhabited/
+  268  cd ..
+  269  cd real/telluric
+  270  cd ..
+  271  cd fictional
+  272  cp *.* ../inhabited
+  273  cd ..
+  274  cd real/telluric
+  275  cp earth.jpeg ../../inhabited
+  276  cd ..
+  277  cd dwarf-planets
+  278  cd .. 
+  279  rm -r dwarf-planets
+  280  ls
+  281  find
+  282  cd ..
+  283  find
+  284  history
