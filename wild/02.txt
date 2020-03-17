@@ -1,0 +1,18 @@
+VARIABLES
+  argent EST UN REEL
+  prix EST UN REEL
+  max_bonbons EST UN ENTIER NATUREL <- 0
+  
+DEBUT CalculMaxBonbons (REEL argent, REEL prix)
+  DEBUT SI argent > 0 ET SI prix > 0
+    TANT QUE argent >= prix
+      max_bonbons <- max_bonbons + 1
+      argent <- argent - prix
+    FIN TANT QUE
+    DEBUT SI max_bonbons >= 1
+      AFFICHER ("Tu peux acheter ", max_bonbons, " bonbons avec l'argent dont tu disposes.")
+    SINON
+      AFFICHER ("Tu ne peux acheter aucun bonbon avec l'argent dont tu disposes.")
+    FIN SI
+  FIN SI
+FIN CalculMaxBonbons
