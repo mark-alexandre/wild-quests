@@ -1,0 +1,8 @@
+source : https://php.developpez.com/actu/292271/PHP-8-voici-un-apercu-des-nouveautes-attendues-dans-la-prochaine-version-majeure-du-langage-selon-un-developpeur-PHP/
+Description : Article traitant des nouveautés à venir sur PHP 8 : types Union, type de retour static, fonction fdiv, révision des avertissements…
+
+source : https://www.lafermeduweb.net/veille/css-gg-plus-de-500-icones-css-personnalisables-et-compatible-retina
+Description : présentation d’une ressource proposant l’accès à plus de 500 icones fait en pure CSS.
+
+source : https://www.blogdumoderateur.com/interview-importance-ux-design-projets-web/
+Description : article traitant de l’importance grandissante de l’UX design dans les projets web.
