@@ -5,9 +5,9 @@ All my quests solutions are here.
 
 <h2>GIT</h2>
 <ol>
-  <a url="https://github.com/Moxymore67/wild-quests/blob/master/git/01.txt">
-    <li>GitHub : un petit tour !</li>
-  </a>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/01.txt">
+    GitHub : un petit tour !</a>
+  </li>
   <li>GitHub et Git : les fondamentaux</li>
   <li>Git : undo !</li>
   <li>Github et Git : gérer un conflit</li>
