@@ -66,6 +66,16 @@ All my quests solutions are here.
   </li>
 </ol>
 
+<h2>UNIX</h2>
+<ol>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/unix/01.txt">
+    Linux - Terminal 1 - Arborescence de répertoires</a>
+  </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/unix/02.txt">
+    Linux - Terminal 2 - Fichiers et répertoires</a>
+  </li>
+</ol>
+
 <h2>WILD</h2>
 <ol>
   <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/wild/01.txt">
