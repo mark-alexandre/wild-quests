@@ -10,3 +10,15 @@ All my quests solutions are here.
   <li>Les tableaux && boucles en PHP</li>
   <li>Les conditions en PHP</li>
 </ol>
+
+<h2>Integration</h2>
+<ol>
+  <li>Découvre l'UX Design : l'utilisabilité</li>
+  <li>Construire un wireframe</li>
+  <li>Structurer une page HTML</li>
+  <li>HTML : les bonnes pratiques</li>
+  <li>CSS : sélecteurs et propriétés</li>
+  <li>CSS : box model</li>
+  <li>CSS : responsive web design</li>
+  <li>CSS : Flexbox</li>
+</ol>
