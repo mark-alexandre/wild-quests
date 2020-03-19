@@ -64,6 +64,12 @@ All my quests solutions are here.
   <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/php/05.php">
     Les conditions en PHP</a>
   </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/php/06.php">
+    Les fonctions avec PHP</a>
+  </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/php/07.php">
+    Debug toi même en PHP</a>
+  </li>
 </ol>
 
 <h2>UNIX</h2>
