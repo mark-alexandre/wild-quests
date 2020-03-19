@@ -1,5 +1,5 @@
 # wild-quests
-All my quests solutions for the PHP Backend Developper lesson are here.
+All my quests solutions for the PHP Backend Developper lesson @ Strasbourg are here.
 
 <h1>Summary</h1>
 
