@@ -6,3 +6,16 @@ UPDATE school SET capacity=700 WHERE id=7;
 UPDATE school SET country='Sweden' WHERE id=3;
 
 DELETE FROM school WHERE name LIKE '%Magic%';
+
+select * from school;
++----+----------------------------------------------+----------+----------------+
+| id | name                                         | capacity | country        |
++----+----------------------------------------------+----------+----------------+
+|  2 | Castelobruxo                                 |      380 | Brazil         |
+|  3 | Durmstrang Institute                         |      570 | Sweden         |
+|  4 | Hogwarts School of Witchcraft and Wizardry   |      450 | United Kingdom |
+|  5 | Ilvermorny School of Witchcraft and Wizardry |      300 | USA            |
+|  6 | Koldovstoretz                                |      125 | Russia         |
++----+----------------------------------------------+----------+----------------+
+5 rows in set (0.00 sec)
+
