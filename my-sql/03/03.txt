@@ -1,0 +1,8 @@
+INSERT INTO school (name, country, capacity) VALUES ('Beauxbatons Academy of Magic', 'France', 550), ('Castelobruxo', 'Brazil', 380), ('Durmstrang Institute', 'Norway', 570), ('Hogwarts School of Witchcraft and Wizardry', 'United Kingdom', 450), ('Ilvermorny School of Witchcraft and Wizardry'
+, 'USA', 300), ('Koldovstoretz', 'Russia', 125), ('Mahoutokoro School of Magic', 'Japan', 800), ('Uagadou School of Magic', 'Uganda', 350);
+
+UPDATE school SET capacity=700 WHERE id=7;
+
+UPDATE school SET country='Sweden' WHERE id=3;
+
+DELETE FROM school WHERE name LIKE '%Magic%';
