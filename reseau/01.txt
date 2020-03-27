@@ -14,34 +14,7 @@ alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049="
 accept-ranges: none
 vary: Accept-Encoding
 
- mooks@mooks-ms-7c37  ~  curl -I https://www.quesacode.fr/
-HTTP/2 200 
-date: Fri, 27 Mar 2020 08:46:04 GMT
-server: Apache
-strict-transport-security: max-age=16000000
-accept-ranges: bytes
-x-mod-pagespeed: 1.11.33.5-0
-cache-control: max-age=0, no-cache, must-revalidate
-vary: Accept-Encoding,Cookie
-content-length: 50510
-content-type: text/html; charset=UTF-8
-
- mooks@mooks-ms-7c37  ~  curl -I https://www.les-alternatives.com/
-HTTP/2 200 
-date: Fri, 27 Mar 2020 08:46:41 GMT
-server: Apache
-x-frame-options: SAMEORIGIN
-set-cookie: PHPSESSID=9ec51999c19c68afc4d0d4207e9c985c; path=/
-expires: Thu, 19 Nov 1981 08:52:00 GMT
-cache-control: no-store, no-cache, must-revalidate
-pragma: no-cache
-link: <https://www.les-alternatives.com/wp-json/>; rel="https://api.w.org/"
-link: <https://www.les-alternatives.com/>; rel=shortlink
-strict-transport-security: max-age=16000000
-vary: Accept-Encoding
-content-type: text/html; charset=UTF-8
-
- mooks@mooks-ms-7c37  ~  curl -I https://www.reddit.com/          
+mooks@mooks-ms-7c37  ~  curl -I https://www.reddit.com/          
 HTTP/2 401 
 cache-control: private, s-maxage=0, max-age=0, must-revalidate, no-store
 content-type: text/html; charset=utf-8
@@ -61,3 +34,17 @@ set-cookie: edgebucket=CSWcMQRUJ2fE94klHe; Domain=reddit.com; Max-Age=63071999; 
 strict-transport-security: max-age=15552000; includeSubDomains; preload
 server: snooserv
 
+mooks@mooks-ms-7c37  ~  curl -I http://httpstat.us/503
+HTTP/1.1 503 Service Unavailable
+Cache-Control: private
+Content-Length: 23
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNetMvc-Version: 5.1
+Access-Control-Allow-Origin: *
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:7585021b-2db7-4da6-abff-2cf23005f0a9
+Access-Control-Expose-Headers: Request-Context
+X-Powered-By: ASP.NET
+Set-Cookie: ARRAffinity=ea4772186eb0db88db0d20989fe61d28ef450ce0c9c3e2734fe4eaed44b5f249;Path=/;HttpOnly;Domain=httpstat.us
+Date: Fri, 27 Mar 2020 09:01:18 GMT
