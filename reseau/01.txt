@@ -1,0 +1,63 @@
+mooks@mooks-ms-7c37  ~  curl -I https://www.google.co.in/
+HTTP/2 200 
+date: Fri, 27 Mar 2020 08:45:40 GMT
+expires: -1
+cache-control: private, max-age=0
+content-type: text/html; charset=ISO-8859-1
+p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+server: gws
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+set-cookie: 1P_JAR=2020-03-27-08; expires=Sun, 26-Apr-2020 08:45:40 GMT; path=/; domain=.google.co.in; Secure
+set-cookie: NID=201=llSeWQbfNFjiyCuzZ8AsBkMuIHUGT3_nRVyGua3frolJAJxFt6ieQPpAYjYFatFURrla8UuwX2CBpQtfOwZpCsAOEGOzFgvfYDN19Fibjdxp1wZBVcfOGmOEbFUaxcAg5kahJy0bllCudjTyjVkzU8NyYsM7mJ8v3qXM-qGFDlM; expires=Sat, 26-Sep-2020 08:45:40 GMT; path=/; domain=.google.co.in; HttpOnly
+alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,h3-T050=":443"; ma=2592000
+accept-ranges: none
+vary: Accept-Encoding
+
+ mooks@mooks-ms-7c37  ~  curl -I https://www.quesacode.fr/
+HTTP/2 200 
+date: Fri, 27 Mar 2020 08:46:04 GMT
+server: Apache
+strict-transport-security: max-age=16000000
+accept-ranges: bytes
+x-mod-pagespeed: 1.11.33.5-0
+cache-control: max-age=0, no-cache, must-revalidate
+vary: Accept-Encoding,Cookie
+content-length: 50510
+content-type: text/html; charset=UTF-8
+
+ mooks@mooks-ms-7c37  ~  curl -I https://www.les-alternatives.com/
+HTTP/2 200 
+date: Fri, 27 Mar 2020 08:46:41 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+set-cookie: PHPSESSID=9ec51999c19c68afc4d0d4207e9c985c; path=/
+expires: Thu, 19 Nov 1981 08:52:00 GMT
+cache-control: no-store, no-cache, must-revalidate
+pragma: no-cache
+link: <https://www.les-alternatives.com/wp-json/>; rel="https://api.w.org/"
+link: <https://www.les-alternatives.com/>; rel=shortlink
+strict-transport-security: max-age=16000000
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+
+ mooks@mooks-ms-7c37  ~  curl -I https://www.reddit.com/          
+HTTP/2 401 
+cache-control: private, s-maxage=0, max-age=0, must-revalidate, no-store
+content-type: text/html; charset=utf-8
+x-frame-options: SAMEORIGIN
+accept-ranges: bytes
+date: Fri, 27 Mar 2020 08:47:27 GMT
+via: 1.1 varnish
+x-served-by: cache-hhn4047-HHN
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1585298847.987665,VS0,VE171
+vary: Accept-Encoding
+set-cookie: session_tracker=H8ioP8CsW466KsAwDU.0.1585298847100.Z0FBQUFBQmVmYjJmWjZQZWZ6UjlSWE9NdkROeU9FbExLdFVhR25TUTdvbHZiRU1IaC02elZZN1lGUThzZnN6N0NKbUpURzhHSEFjUE1ZVVUyRy1hSFFjZ3Q5cHBhNGZNTllKR0RGSlFwYWd3YWlmeG1RV0tabnJsOUllQmtRdXBNV05BdTJKUU44TTc; path=/; domain=.reddit.com; secure; SameSite=None; Secure
+set-cookie: eu_cookie_v2=1; path=/; expires=Wed, 27 Mar 2030 08:47:27 GMT; domain=.reddit.com; secure
+set-cookie: csv=1; Max-Age=63072000; Domain=.reddit.com; Path=/; Secure; SameSite=None
+set-cookie: edgebucket=CSWcMQRUJ2fE94klHe; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+strict-transport-security: max-age=15552000; includeSubDomains; preload
+server: snooserv
+
