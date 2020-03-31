@@ -102,7 +102,7 @@ class Car
     }
 
     /**
-     * @return void
+     * @return int
      */
     public function getCurrentSpeed():int
     {
@@ -110,7 +110,7 @@ class Car
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getColor():string
     {

@@ -66,7 +66,6 @@ $car2->setCurrentSpeed(0);
 // Print of the result
 echo "<h1>Car example #2</h1>";
 $ifStarted2 = $car2->start();
-var_dump($car2);
 if ($ifStarted2 === 0)
 {
     echo "Your are driving, and this means your car is already started! Please stop alcohol dude ;-)";
