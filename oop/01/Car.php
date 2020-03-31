@@ -10,7 +10,7 @@ class Car
     /**
      * @var integer
      */
-      private $currentSpeed = 0;
+      private $currentSpeed = 50;
 
     /**
      * @var string
@@ -45,24 +45,6 @@ class Car
     /**
      * METHODS
      */
-    public function forward()
-    {
-        $this->currentSpeed = 50;
-
-        return "Go !";
-    }
-
-    public function brake():string
-    {
-        $sentence = "";
-        while ($this->currentSpeed > 0)
-        {
-            $this->currentSpeed--;
-            $sentence .= "Brake !!!";
-        }
-        $sentence .= "I'm stopped !";
-        return $sentence;
-    }
 
     public function start():int
     {
@@ -86,6 +68,26 @@ class Car
         }
             
     }
+    
+    public function forward()
+    {
+        $this->currentSpeed;
+        return "Go !";
+    }
+
+    public function brake():string
+    {
+        $sentence = "";
+        while ($this->currentSpeed > 0)
+        {
+            $this->currentSpeed--;
+            $sentence .= "Brake !!!";
+        }
+        $sentence .= "I'm stopped !";
+        return $sentence;
+    }
+
+    
 
     /**
      * GETTERS

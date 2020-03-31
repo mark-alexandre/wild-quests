@@ -10,7 +10,7 @@ class Bicycle
     /**
      * @var integer
      */
-    private $currentSpeed;
+    private $currentSpeed = 10;
 
     /**
      * @var integer
@@ -35,7 +35,7 @@ class Bicycle
      */
     public function forward()
     {
-        $this->currentSpeed = 15;
+        $this->currentSpeed;
 
         return "Go !";
     }
