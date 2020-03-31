@@ -86,7 +86,7 @@ else
     echo "<br><br>";
 }
 
-// Example #3 : with the car stopped
+// Example #3 : without any energy
 $car3 = new Car('yellow', 2, 'electricity');
 $car3->setEnergyLevel(0);
 
