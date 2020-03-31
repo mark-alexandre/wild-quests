@@ -39,7 +39,7 @@ $car = new Car('blue', 7, 'gas');
 $car->setCurrentSpeed(30);
 
 // Print of the result
-echo "<h1>Car example #1</h1>";
+echo "<h1>Car example #1 : with the car already running</h1>";
 $ifStarted = $car->start();
 if ($ifStarted === 0)
 {
@@ -64,7 +64,7 @@ $car2 = new Car('red', 5, 'gazoil');
 $car2->setCurrentSpeed(0);
 
 // Print of the result
-echo "<h1>Car example #2</h1>";
+echo "<h1>Car example #2 : with the car stopped</h1>";
 $ifStarted2 = $car2->start();
 if ($ifStarted2 === 0)
 {
@@ -90,7 +90,7 @@ $car3 = new Car('yellow', 2, 'electricity');
 $car3->setEnergyLevel(0);
 
 // Print of the result
-echo "<h1>Car example #3</h1>";
+echo "<h1>Car example #3 : without any energy</h1>";
 $ifStarted3 = $car3->start();
 if ($ifStarted3 === 0)
 {
