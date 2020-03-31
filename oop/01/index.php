@@ -15,14 +15,15 @@ $bike2 = new Bicycle('blue');
 $bike2->setCurrentSpeed(15);
 
 // Print of the result
-echo "<h1>Bike example</h1>";
+echo "<h1>Bike example #1</h1>";
 echo $bike->forward();
 echo '<br> Bike\'s speed : ' . $bike->getCurrentSpeed() . ' km/h' . '<br>';
 echo $bike->brake();
 echo '<br> Bike\'s speed : ' . $bike->getCurrentSpeed() . ' km/h' . '<br>';
 echo $bike->brake();
 echo "<br><br>";
-echo "<h1>Bike example</h1>";
+
+echo "<h1>Bike example #2</h1>";
 echo $bike2->forward();
 echo '<br> Bike\'s speed : ' . $bike2->getCurrentSpeed() . ' km/h' . '<br>';
 echo $bike2->brake();
