@@ -72,6 +72,18 @@ All my quests solutions for the PHP Backend Developper lesson @ Strasbourg are h
   </li>
 </ol>
 
+<h2>PHP Avancé</h2>
+<ol>
+  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/php-avance/01">Installation de Phpstorm</a></li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/php-avance/02">Les formulaires en PHP - Récupération</a></li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/php-avance/pdo">PDO, un ami pour la vie</a></li>
+</ol>
+
+<h2>OOP</h2>
+<ol>
+  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/oop/01">Basics | Part 1: Faire ses premières classes</a></li>
+</ol>
+
 <h2>UNIX</h2>
 <ol>
   <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/unix/01.txt">
