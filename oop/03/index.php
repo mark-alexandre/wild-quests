@@ -1,6 +1,5 @@
 <?php
 
-require_once 'HighWay.php';
 require_once 'Vehicle.php';
 require_once 'Truck.php';
 require_once 'Bicycle.php';
