@@ -7,10 +7,10 @@ Contact: mark.alexandre.strasbourg___AT___gmail.com<br>
 </p>
 
 <h4>Codewars rank :</h4>
-<a href="https://www.codewars.com/users/Mooks"><img src="https://www.codewars.com/users/Mooks/badges/large"/></a>
+<a target="blank" href="https://www.codewars.com/users/Mooks"><img src="https://www.codewars.com/users/Mooks/badges/large"/></a>
 
 <h4>France IOI public profile :<span>
-<a href="http://www.france-ioi.org/user/perso.php?sLogin=mooks">Visit my profile</a></h4>
+<a target="blank" href="http://www.france-ioi.org/user/perso.php?sLogin=mooks">Visit my profile</a></h4>
 
 <h1>Summary</h1>
 
