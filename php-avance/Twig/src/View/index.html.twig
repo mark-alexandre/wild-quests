@@ -27,7 +27,7 @@
 #}
 {% block content %}
 
-    {% if getPage is same as ('Home') %}
+    {% if getPage is same as ('Home') or getPage is same as (NULL) %}
     <div id="page-content">
         <div class="container-fluid text-center">
             <div class="row justify-content-center">
