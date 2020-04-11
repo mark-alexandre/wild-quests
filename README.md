@@ -27,7 +27,7 @@ All my quests solutions for the PHP Backend Developper lesson @ Strasbourg are h
   <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/04/">
     Github et Git : gérer un conflit</a>
   </li>
-  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/05/">
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/Fondamentaux/">
       Git : Les fondamentaux</a>
   </li>
 </ol>
