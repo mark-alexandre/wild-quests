@@ -3,19 +3,32 @@ All my quests solutions for the PHP Backend Developper lesson @ Strasbourg are h
 
 <h1>Summary</h1>
 
+<h2>Composer</h2>
+<ol>
+  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/composer/01">
+    Composer : Autoload</a>
+  </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/composer/02">
+    Composer 2 : Packages Management</a>
+  </li>
+</ol>
+
 <h2>GIT</h2>
 <ol>
-  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/01.txt">
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/01/">
     GitHub : un petit tour !</a>
   </li>
-  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/02.txt">
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/02/">
     GitHub et Git : les fondamentaux</a>
   </li>
-  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/03.txt">
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/03/">
     Git : undo !</a>
   </li>
-  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/04.txt">
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/04/">
     Github et Git : gérer un conflit</a>
+  </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/git/05/">
+      Git : Les fondamentaux</a>
   </li>
 </ol>
 
@@ -44,6 +57,9 @@ All my quests solutions for the PHP Backend Developper lesson @ Strasbourg are h
   </li>
   <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/integration/08.txt">
     CSS : Flexbox</a>
+  </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/integration/09.html">
+      Bootstrap : le système de grilles</a>
   </li>
 </ol>
 
@@ -74,14 +90,30 @@ All my quests solutions for the PHP Backend Developper lesson @ Strasbourg are h
 
 <h2>PHP Avancé</h2>
 <ol>
-  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/php-avance/01">Installation de Phpstorm</a></li>
-  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/php-avance/02">Les formulaires en PHP - Récupération</a></li>
-  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/php-avance/pdo">PDO, un ami pour la vie</a></li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/php-avance/01">
+    Installation de Phpstorm</a></li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/php-avance/02">
+    Les formulaires en PHP - Récupération</a></li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/php-avance/pdo">
+    PDO, un ami pour la vie</a></li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/php-avance/Twig">
+      Les vues avec Twig</a></li>
 </ol>
 
 <h2>OOP</h2>
 <ol>
-  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/oop/01">Basics | Part 1: Faire ses premières classes</a></li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/oop/01">
+  Basics | Part 1: Faire ses premières classes</a></li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/oop/02">
+    Basics | Part 2: Héritage et parentalité</a></li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/oop/03">
+  Basics | Part 3: Abstraction</a></li>
+</ol>
+
+<h2>Réseaux</h2>
+<ol>
+  <li><a href="https://github.com/Moxymore67/wild-quests/tree/master/reseau">
+  Le protocole HTTP</a></li>
 </ol>
 
 <h2>UNIX</h2>
