@@ -1,0 +1,47 @@
+<!-- Doctype -->
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{%  block title %}{% endblock %}</title>
+    <meta name="description" content="{% block description %}{% endblock %}">
+    <link rel="icon" href="/assets/images/favicon.png">
+    {% include ('/assets/stylesheets.twig') %}
+</head>
+
+<body class="d-flex flex-column">
+
+<!-- Header -->
+<header>
+    <ul class="nav nav-pills nav-fill py-4 bg-dark">
+        <li class="nav-item">
+            <a class="nav-link text-white-50" href="?page=Home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white-50" href="?page=Home-Variant">Home Variant</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white-50" href="?page=Contact">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white-50" href="?page=404">404</a>
+        </li>
+    </ul>
+</header>
+
+<!-- Content -->
+{% block content %}{% endblock %}
+
+<!-- Footer -->
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+        <small>Copyright &copy; 2020 | Mooks</small>
+    </div>
+</footer>
+
+<!-- Scripts -->
+{% include ('/assets/scripts.twig') %}
+
+</body>
+</html>

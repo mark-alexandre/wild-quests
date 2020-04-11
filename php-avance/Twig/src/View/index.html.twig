@@ -1,0 +1,75 @@
+{% extends "base.html.twig" %}
+
+{# Balise Meta Title #}
+{% block title %}Home{% endblock %}
+
+{#
+    Balise Meta Description
+
+    *** Notes ***
+    - {% apply spaceless %} {% endapply %} : used to remove whitespace between HTML tags
+#}
+{% block description %}{% apply spaceless %}
+
+    {% if getPage is same as ('Home') %}
+        My Home page description.
+    {% elseif getPage is same as ('Home-Variant') %}
+        My variant description for the Home-Variant page.
+    {% endif %}
+
+{% endapply %}{% endblock %}
+
+{#
+    Content
+
+    *** Notes ***
+    - {{- "My text" -}} : used to remove new lines and additional spaces in HTML source code
+#}
+{% block content %}
+
+    {% if getPage is same as ('Home') %}
+    <div id="page-content">
+        <div class="container-fluid text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h1 class="font-weight-light mt-4 text-white">{{ getPage }}</h1>
+                    <div class="lead text-white-50">
+                        <h2 class="font-weight-light mb-5 mt-4 text-white">Petite sélection de blagues à la con</h2>
+                        <div class="alert alert-warning mb-5" role="alert">
+                            {{- "L'auteur de cette page dénigre toutes responsabilités quant à ces blagues de merde." -}}
+                        </div>
+                        <div class="row row justify-content-center">
+                            {% for blague in products %}
+                            <div class="container bg-dark col-3 d-flex justify-content-center align-items-center mb-4 ml-1 mr-1 p-4">
+                                <p class="mb-1 text-white">{{ blague }}</p>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% elseif getPage is same as ('Home-Variant') %}
+
+    <div id="page-content">
+        <div class="container-fluid text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h1 class="font-weight-light mt-4 text-white">{{ getPage }}</h1>
+                    <div class="lead text-white-50">
+                        <h2 class="font-weight-light mb-5 mt-4 text-white">
+                            {{- "Test Twig contenu dynamique avec $_GET" -}}
+                        </h2>
+                        <div class="alert alert-warning mb-5" role="alert">
+                            {{- "Uniquement en guise de test." -}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+{% endblock %}

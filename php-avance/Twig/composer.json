@@ -1,0 +1,13 @@
+{
+    "name": "mooks/twig",
+    "description": "Twig quest",
+    "authors": [
+        {
+            "name": "Moxymore67",
+            "email": "mark.alexandre.strasbourg@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
