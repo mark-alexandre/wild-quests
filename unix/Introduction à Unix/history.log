@@ -1,0 +1,232 @@
+    1  clear
+    2  ls
+    3  cd mystery
+    4  ls
+    5  cat crimescene
+    6  grep -w "CLUE" -i crimscene
+    7  grep -w "CLUE" -i crimescene
+    8  ls
+    9  grep -w "Annabel" -i people
+   10  ls
+   11  cd streets
+   12  ls
+   13  cd Hart_Place
+   14  cat Hart_Place
+   15  grep -w "spiky" Hart_Place
+   16  grep -w "new" Hart_Place
+   17  grep -w "annabel" Hart_Place
+   18  grep -w "museum" Hart_Place
+   19  grep "museum" Hart_Place
+   20  grep "annabel" Hart_Place
+   21  grep "museum" Hart_Place
+   22  grep "zealand" Hart_Place
+   23  grep "40" Hart_Place
+   24  grep "blond" Hart_Place
+   25  ls
+   26  grep "blond" buckingham_Place
+   27  grep "annabel" buckingham_Place
+   28  grep "annabel" Buckingham_Place
+   29  grep "blond" Buckingham_Place
+   30  grep "spiky" Buckingham_Place
+   31  grep "skymiles" Buckingham_Place
+   32  grep "museum" Buckingham_Place
+   33  grep "AAA" Buckingham_Place
+   34  grep "tall" Buckingham_Place
+   35  grep "bash" Buckingham_Place
+   36  grep "church" Buckingham_Place
+   37  ls
+   38  cd..
+   39  ls
+   40  cd interviews
+   41  ls
+   42  grep "Annabel" *
+   43  grep "Sun" *
+   44  grep "Church" *
+   45  grep "tall" *
+   46  grep "suspect" *
+   47  cat interview-628618
+   48  cat interview 862173
+   49  cat interview-862173
+   50  cat interview-9620713
+   51  cd..
+   52  ls
+   53  cd memberships
+   54  ls
+   55  grep "boyer" *
+   56  grep "waite" *
+   57  cat people
+   58  cd people
+   59  ls
+   60  cd ..
+   61  cat people
+   62  grep "brathwaite" *
+   63  grep "brathwaite" people
+   64  grep "yasmin" people
+   65  grep "waite" people
+   66  grep "Boyer" people
+   67  ls
+   68  grep -w "Brathwaite" crimescene
+   69  grep "Brathwaite" crimescene
+   70  grep "Boyer" crimescene
+   71  cd memberships
+   72  ls
+   73  grep "Boyer" AAA
+   74  grep "Simone" AAA
+   75  grep "Nedzad" AAA
+   76  grep "Boyer" Delta_SkyMiles
+   77  grep "Boyer" Museum_of_Bash_History
+   78  cd..
+   79  ls
+   80  grep "suspect" crimescene
+   81  grep "CLUE" crimescene
+   82  cd interviews
+   83  ls
+   84  grep -w "Boyer" *
+   85  cd..
+   86  ls
+   87  cat vehicles
+   88  grep -w "Boyer" vehicles
+   89  ls
+   90  cd interviews
+   91  grep "suspect" *
+   92  cat interview-9620713
+   93  cd..
+   94  ls
+   95  cat people
+   96  ls
+   97  cd interviews
+   98  cat interview-9620713
+   99  cd..
+  100  grep "9620713" *
+  101  cd interviews
+  102  ls
+  103  cat 9618669
+  104  cat interview-9618669
+  105  cat interview-9620713
+  106  cd..
+  107  ls
+  108  grep "CLUE" crimescene
+  109  ls
+  110  cd..
+  111  ls
+  112  cat hint1
+  113  cat hint2
+  114  cat hint3
+  115  cat hint4
+  116  cat hint5
+  117  ls
+  118  cd mystery
+  119  ls
+  120  cd interviews
+  121  head -n 179 Buckingham Place | tail -n 1
+  122  head -n 179 Buckingham_Place | tail -n 1
+  123  cd ..
+  124  ls
+  125  cd streets
+  126  head -n 179 Buckingham_Place | tail -n 1
+  127  cd ..
+  128  cd interview
+  129  ls
+  130  cd interviews
+  131  ls
+  132  cat "interview-699607"
+  133  cd..
+  134  ls
+  135  cd vehicles
+  136  grep "L337" vehicles
+  137  cat vehicles
+  138  grep "Honda" vehicles
+  139  grep "Honda" vehicles | grep "L337"
+  140  grep "Honda" vehicles | grep "L337" vehicles
+  141  grep -n "Honda" vehicles | grep -n "L337" vehicles
+  142  head -n 866 vehicles
+  143  head -n 876 vehicles
+  144  head -n 2174 vehicles
+  145  head -n 5464 vehicles
+  146  head -n 7172 vehicles
+  147  head -n 13564 vehicles
+  148  head -n 13570 vehicles
+  149  head -n 13661 vehicles
+  150  head -n 15929 vehicles
+  151  head -n 17749 vehicles
+  152  head -n 22089 vehicles
+  153  head -n 23832 vehicles
+  154  head -n 24840 vehicles
+  155  head -n 31833 vehicles
+  156  head -n 34312 vehicles
+  157  head -n 34318 vehicles
+  158  cd ..
+  159  ls
+  160  cd mystery
+  161  ls
+  162  cd memberships
+  163  ls
+  164  grep "Bostok" AAA
+  165  grep "Mike" AAA
+  166  grep "Mike" Museum_of_Bash_History
+  167  grep "Mike" Delta*
+  168  grep "Mike" DeltaSkyMiles
+  169  grep "Mike" Delta_SkyMiles
+  170  grep "Erika" Delta_SkyMiles
+  171  grep "Aron" Delta_SkyMiles
+  172  grep "Aron" AAA
+  173  grep "Billings" AAA
+  174  grep "Bilings" AAA
+  175  grep "Joe" AAA
+  176  grep "Joe" Delta*
+  177  grep "Jeremy" Delta*
+  178  grep "Jeremy" AAA
+  179  grep "Jeremy" Museum*
+  180  grep "Maher" Museum*
+  181  grep "Maher" Delta*
+  182  grep "Maher" AAA
+  183  cd..
+  184  ls
+  185  cd interviews
+  186  grep "Mike Bostock" *
+  187  grep "Bostock" *
+  188  grep "Bowers" *
+  189  grep "Jeremy" *
+  190  grep "Jacqui" *
+  191  grep "Maher" *
+  192  cat interview-290346
+  193  cat interview-904020
+  194  cd..
+  195  ls
+  196  cd memberships
+  197  ls
+  198  grep "Mike" Terminal_City_Library
+  199  grep "Jeremy" Terminal_City_Library
+  200  grep "Jacqui" Terminal_City_Library
+  201  cd..
+  202  cd memberships
+  203  ls
+  204  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Mike Bostock"
+  205  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  206  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+  207  cd..
+  208  ls
+  209  cd interviews
+  210  ls
+  211  cat * | grep "Jacqui Maher"
+  212  grep "Jacqui Maher" *
+  213  grep "Jeremy Bowers" *
+  214  grep "Bowers" *
+  215  grep "Bostock" *
+  216  cd ..
+  217  cd memberships
+  218  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library  | grep "Jeremy Bowers" | wc -l
+  219  cd ..
+  220  grep "Jacqui" people
+  221  grep "Jeremy" people
+  222  grep "Joe" people
+  223  head -n 275 streets/Plainfield_Street | tail -n 1
+  224  head -n 284 streets/Dunstable_Road | tail -n 1
+  225  head -n 224 streets/Andover_Road | tail -n 1
+  226  cd interviews
+  227  cat interviews-904020
+  228  cat interview-904020
+  229  cat inteview-9620713
+  230  cat interview-9620713
+  231  echo Jeremy Bowers
+  232  history > history.log
