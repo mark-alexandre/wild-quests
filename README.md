@@ -1,6 +1,17 @@
 # wild-quests
 All my quests solutions for the PHP Backend Developper lesson @ Strasbourg are here.
 
+<h1>Profile</h1>
+<p>Full name : Alexandre MARK<br>
+Contact: mark.alexandre.strasbourg___AT___gmail.com<br>
+</p>
+
+<h4>Codewars rank :</h4>
+<img src="https://www.codewars.com/users/Mooks/badges/large"/>
+
+<h4>France IOI public profile :<span>
+<a href="http://www.france-ioi.org/user/perso.php?sLogin=mooks">Visit my profile</a></h4>
+
 <h1>Summary</h1>
 
 <h2>Composer</h2>
