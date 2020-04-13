@@ -1,0 +1,727 @@
+/* @font-face */
+
+/* Symbols wrapping titles */
+@font-face {
+    font-family: 'tengwar_annatarregular';
+    src: url('./assets/fonts/tngan/tngan-webfont.woff2') format('woff2'),
+         url('./assets/fonts/tngan/tngan-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tengwar_annatarbold';
+    src: url('./assets/fonts/tngan/tnganb-webfont.woff2') format('woff2'),
+         url('./assets/fonts/tngan/tnganb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tengwar_annatarbold_italic';
+    src: url('./assets/fonts/tngan/tnganbi-webfont.woff2') format('woff2'),
+         url('./assets/fonts/tngan/tnganbi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tengwar_annataritalic';
+    src: url('./assets/fonts/tngan/tngani-webfont.woff2') format('woff2'),
+         url('./assets/fonts/tngan/tngani-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Titles fonts */
+@font-face {
+    font-family: 'anironregular';
+    src: url('./assets/fonts/aniron/aniron-7bap-webfont.woff2') format('woff2'),
+         url('./assets/fonts/aniron/aniron-7bap-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'anironbold';
+    src: url('./assets/fonts/aniron/anironbold-ml9p-webfont.woff2') format('woff2'),
+         url('./assets/fonts/aniron/anironbold-ml9p-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'anironcregular';
+    src: url('./assets/fonts/aniron/anironc-d9dk-webfont.woff2') format('woff2'),
+         url('./assets/fonts/aniron/anironc-d9dk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'anironcbold';
+    src: url('./assets/fonts/aniron/anironcbold-pkwr-webfont.woff2') format('woff2'),
+         url('./assets/fonts/aniron/anironcbold-pkwr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Text fonts */
+@font-face {
+    font-family: 'party_businessregular';
+    src: url('./assets/fonts/partybusiness/partybusiness-4b0k-webfont.woff2') format('woff2'),
+         url('./assets/fonts/partybusiness/partybusiness-4b0k-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Color scheme */
+:root {
+    --title-font: anironregular, sans-serif;
+    --symbols: tengwar_annatarregular, sans-serif;
+    --text: party_businessregular, sans-serif;
+    --orange: #ff5f01;
+    --placeholder: #aeaeae;
+    --card-text: #b6b6b6;
+}
+
+/* Custom styling */
+
+::-webkit-input-placeholder {
+    font-family: var(--title-font);
+}
+::-moz-placeholder {
+    font-family: var(--title-font);
+}
+:-ms-input-placeholder {
+    font-family: var(--title-font);
+}
+::placeholder {
+    font-family: var(--title-font);
+}
+
+select#form-select {
+    color: grey;
+    font-family: var(--title-font);
+    position: relative;
+    display: block;
+    height: 50px;
+}
+
+body {
+    background: url("./assets/img/bg.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6, .nav-link, .lord-button, .send-btn {
+    font-family: var(--title-font);
+}
+
+h1 {
+    font-size: 1em;
+}
+
+h2 {
+    padding-left: 30px;
+}
+
+p {
+    font-family: var(--text);
+}
+
+.text-size {
+    font-size: 1.2em;
+}
+
+/* Nav */
+.nav-active {
+    border-bottom: solid white 4px;
+}
+
+.lord-nav a {
+    position: relative;
+}
+
+.lord-nav a:not(:first-child):not(:last-child):after {
+    content: '';
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    height: 40%;
+    width: 1px;
+    background: white;
+}
+
+.lord-nav {
+    background-color: var(--orange);
+    text-shadow: yellow 0 0 5px;
+}
+
+/* Cards */
+img.card-img-top {
+    height: 55%;
+}
+
+.reward {
+    display: none;
+}
+
+/* Carousel */
+.carousel-overlay {
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-big-title {
+    font-size: 4em;
+}
+
+.carousel-little-title, .carousel-signature {
+    font-size: 2.5em;
+}
+
+.carousel-span-container,
+.carousel-big-title {
+    width: 650px;
+}
+
+.carousel-signature {
+    float: right;
+    font-size: 45px;
+}
+
+/* Cards */
+.fellows-pic {
+    cursor: crosshair;
+    min-height: 500px;
+    border: solid black 4px;
+    border-right: solid black 6px;
+    border-left: solid black 6px;
+}
+
+.fellows-pic.gimli {
+    cursor: not-allowed;
+}
+
+.card-title span:before {
+    content: '|';
+    color: var(--orange);
+    font-size: 2.5em;
+    position: absolute;
+    transform: rotate(-80deg);
+    display: inline-block;
+    top: 29%;
+    left: 55%;
+}
+
+.aragorn {
+    background: url(./assets/img/aragorn.jpg) right;
+    background-size: cover;
+}
+
+.gandalf {
+    background: url(./assets/img/gandalf.jpg) center;
+    background-size: cover;
+}
+
+.gimli {
+    background: url(./assets/img/gimli.jpg) center;
+    background-size: cover;
+}
+
+.fellows-card-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    background: #1d2124;
+    padding: 10px 5px;
+    height: 110px;
+    overflow: hidden;
+}
+
+.card-title {
+    font-family: party_businessregular;
+    font-size: 4em;
+    text-shadow: black 0 0 3px;
+    width: 100%;
+    text-align: center;
+}
+
+.card-body:hover {
+    background: #b1b1b187;
+}
+
+.cards-container {
+    background: url("./assets/img/bg_light.jpg") repeat;
+}
+
+.fellow-h2 {
+    font-size: 1.3em;
+    font-family: anironcbold, sans-serif;
+}
+
+.fellow-h2:before, .fellow-h2:after {
+    content: ' ij ';
+    font-family: tengwar_annataritalic, sans-serif;
+    color: #d98255;
+    font-size: 1.2em;
+    position: relative;
+    top: -10px;
+}
+
+.fellow-span {
+    font-size: 0.7em;
+    font-family: anironcbold, sans-serif;
+}
+
+.fellow-nav a {
+    font-size: 1em;
+    color: #545b62;
+}
+
+.fellow-nav .nav-active {
+    border-color: var(--orange);
+    color: var(--orange);
+    padding-bottom: 0;
+}
+
+.fellow-nav .nav-active:before,
+.fellow-nav .nav-active:after{
+    content: ' b ';
+    font-family: tengwar_annataritalic, sans-serif;
+    color: #d98255;
+    font-size: 1.4em;
+    position: relative;
+    top: 0;
+}
+
+.card:hover .reward {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    color: black;
+    width: 90%;
+    text-align: center;
+    background: #ffffffc7;
+    margin-left: 5%;
+    padding: 10px 5px;
+    border-radius: 10px;
+    font-size: 2em;
+    box-shadow: white 0 0 10px;
+}
+
+.card:hover .reward.dead {
+    background: none;
+    box-shadow: none;
+    color: var(--orange);
+    font-size: 3em;
+}
+
+.gimli .card-body,
+.gimli .card-body:hover {
+    background: #0000009e;
+}
+
+.custom-overlay {
+    position: absolute;
+    width: 100%;
+    height: 55%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    background-color: black;
+    opacity: 0.7;
+    padding-top: calc(55% / 2 - 10px);
+}
+
+.reward span {
+    color: var(--orange);
+}
+
+/* Contact button section */
+.dark-container:before, .dark-container:after {
+    content: " ";
+    display: block;
+    width: 50%;
+    height: 4px;
+    background: var(--orange);
+    position: relative;
+    left: 25%;
+}
+
+.dark-container:before {
+    top: -1.5em;
+}
+
+.dark-container:after {
+    bottom: -1.5em;
+}
+
+.send-btn {
+    color: var(--orange);
+    padding: 10px;
+    transform: skewX(-15deg);
+}
+
+.lord-btn-cont {
+    transform: skewX(-15deg);
+}
+
+a.lord-button {
+    color: var(--orange);
+    cursor: pointer;
+    background: lightgrey;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sauron-coin {
+    border-radius: 50%;
+}
+
+/* Best hunters section */
+.light-container {
+    background: url("./assets/img/bg_light.jpg") repeat;
+}
+
+.hunters {
+    font-family: party_businessregular;
+    color: var(--orange);
+    font-size: 2.8em;
+    letter-spacing: 2px;
+    text-shadow: var(--orange) 1px 1px 2px;
+}
+
+.hunters-score {
+    font-size: 1.3em;
+    text-shadow: black 0 0 1px;
+}
+
+.hunters-coins {
+    font-size: 1.3em;
+    text-shadow: var(--orange) 0 0 1px;
+    color: var(--orange);
+    background: #222223;
+    transform: skewX(-15deg);
+    width: 100px;
+    padding: 3px 3px 0 3px;
+    line-height: 24px;
+}
+
+.hunters-img {
+    border-radius: 10px;
+}
+
+.hunters-score span:after {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 1px;
+    background: black;
+    margin: 0 auto;
+    top: 6px;
+    left: -55px;
+}
+
+/* About cards */
+.about-card {
+    padding: 0;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    border-bottom: var(--orange) solid 4px;
+}
+
+.about-card .card-header {
+    background: var(--orange);
+    color: white;
+    border-radius: 10px 10px 0 0;
+    font-size: 1em;
+    padding: 5px 15px;
+}
+
+.about-card .card-title {
+    font-size: 1.8em;
+    text-align: left;
+    text-shadow: none;
+}
+
+.about-card .card-body {
+    background: #e6e6e6;
+}
+
+.about-card table {
+    font-family: anironregular, sans-serif;
+    font-size: 1em;
+}
+
+.about-card .table thead {
+    border-bottom: solid #353535 3px;
+}
+
+.about-card .table tbody th, .about-card .table tbody td {
+    color: grey;
+    border-bottom: solid #b5b4b4 1px;
+    padding-left: 20px;
+}
+
+/* Golum section */
+.golum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+}
+
+.golum img {
+    border-radius: 50%;
+}
+
+.golum p:after {
+    content: "- golum";
+    display: inline-block;
+    position: absolute;
+    width: 130px;
+    right: 0;
+    color: grey;
+}
+
+.golum-text {
+    font-size: 1.2em;
+}
+
+/* More info section */
+.more-info, .more-info-link {
+    color: var(--orange);
+    font-size: 1em;
+}
+
+.more-info-link {
+    text-shadow: var(--orange) 0 0 1px;
+    background: #222223;
+    transform: skewX(-15deg);
+    padding: 10px;
+    line-height: 24px;
+    font-family: var(--title-font);
+}
+
+.dark-container.mordor:after,
+.dark-container.last:after{
+    bottom: calc(-1.5em - 4px);
+}
+
+.order {
+    order : 2;
+}
+
+.order-bis {
+    order : 1
+}
+
+/* Contact us section */
+.select {
+    padding: 0 15px;
+}
+
+.dark-container {
+    background: url("./assets/img/bg_dark.jpg") repeat;
+}
+
+.send-btn {
+    margin-right: 10px;
+}
+
+/* Footer */
+.footer {
+    background: var(--orange);
+}
+
+footer p {
+    font-family: var(--title-font);
+}
+
+.follow {
+    font-size: 0.7em;
+}
+
+/***************************
+    @media queries
+***************************/
+@media (max-width: 1200px) {
+    .lord-nav a:not(:first-child):not(:last-child):after {
+        display: none;
+    }
+
+    .nav-active {
+        border-bottom: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .fellow-h2 {
+        font-size: 1em;
+    }
+
+    .fellow-nav a {
+        font-size: 0.7em;
+    }
+
+    .hunters {
+        font-size: 1.8em;
+    }
+
+    .hunters-score {
+        font-size: 1em;
+    }
+
+    .hunters-score span:after {
+        content: " ";
+        display: block;
+        position: absolute;
+        width: 45px;
+        height: 1px;
+        background: black;
+        margin: 0 auto;
+        top: 52px;
+        left: 98px;
+    }
+
+    .text-size {
+        font-size: 0.8em;
+    }
+
+    .golum p:after {
+        position: relative;
+    }
+
+    .army-mobile {
+        justify-content: center !important;
+        margin-bottom: 40px;
+    }
+
+    .order {
+        order : 1;
+    }
+
+    .order-bis {
+        order : 2
+    }
+
+    .more-info-link {
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .carousel-big-title {
+        font-size: 2.5em;
+    }
+
+    .carousel-little-title, .carousel-signature {
+        font-size: 1.5em;
+    }
+
+    .carousel-signature {
+        font-size: 1.5em;
+    }
+
+    .carousel-span-container, .carousel-big-title {
+        width: 70%;
+    }
+
+    .about-card table {
+        font-family: anironregular, sans-serif;
+        font-size: 0.8em;
+    }
+
+    .about-card .card-title {
+        font-size: 1.3em;
+    }
+
+    .fellows-card-text {
+        height: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hunter-card {
+        margin-bottom: 40px;
+    }
+
+    .hunters-score span:after {
+        content: " ";
+        display: block;
+        position: absolute;
+        width: 45px;
+        height: 1px;
+        background: black;
+        margin: 0 auto;
+        top: 68px;
+        left: 98px;
+    }
+
+    .picture:before {
+        content: url(/assets/img/ring.png);
+        position: relative;
+        left: -1px;
+        top: 3px;
+        margin-top: 10px;
+    }
+
+    .about-card table {
+        font-family: anironregular, sans-serif;
+        font-size: 0.7em;
+    }
+
+    .sauron-coin {
+        border-radius: 50%;
+        margin: 30px;
+    }
+
+    .carousel-big-title {
+        font-size: 1.7em;
+    }
+
+    .carousel-little-title, .carousel-signature {
+        font-size: 1.1em;
+    }
+
+    .carousel-signature {
+        font-size: 1.1em;
+    }
+
+    .fellows-card-text {
+        height: 110px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hunters-score span:after {
+        display:none;
+    }
+
+    .fellow-h2 {
+        font-size: 0.8em;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .carousel-big-title {
+        font-size: 1.5em;
+    }
+
+    .carousel-little-title, .carousel-signature {
+        font-size: 1em;
+    }
+
+    .carousel-signature {
+        font-size: 1em;
+    }
+}

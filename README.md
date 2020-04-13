@@ -72,6 +72,12 @@ Contact: mark.alexandre.strasbourg___AT___gmail.com<br>
   <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/integration/09.html">
       Bootstrap : le système de grilles</a>
   </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/integration/10">
+        Intégration finale : Tome I</a>
+  </li>
+  <li><a href="https://github.com/Moxymore67/wild-quests/blob/master/integration/11">
+        Intégration finale : Tome II</a>
+  </li>
 </ol>
 
 <h2>PHP</h2>
