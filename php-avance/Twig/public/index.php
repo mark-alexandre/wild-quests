@@ -33,4 +33,3 @@ switch ($pageName) {
             'products' => $products,
             ]);
 }
-
