@@ -7,7 +7,7 @@ require_once 'connec.php';
  */
 
 // Retrieves database info
-$pdo = new \PDO(DSN, USER, PASS);
+$pdo = new PDO(DSN, USER, PASS);
 $query = "SELECT * FROM friend";
 $statement = $pdo->query($query);
 $friends = $statement->fetchAll(PDO::FETCH_ASSOC);

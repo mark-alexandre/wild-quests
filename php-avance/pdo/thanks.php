@@ -6,7 +6,7 @@ echo 'You\'ll be redirected in about 5 secs.';
 require_once 'connec.php';
 
 // Retrieves database info
-$pdo = new \PDO(DSN, USER, PASS);
+$pdo = new PDO(DSN, USER, PASS);
 
 // Retrieves form datas
 $firstname = trim($_POST['firstname']);
@@ -22,8 +22,8 @@ if (!empty($firstname) && !empty($lastname)) {
 
         // We prepare our query
         $statement = $pdo->prepare($query);
-        $statement->bindValue(':firstname', $firstname, \PDO::PARAM_STR);
-        $statement->bindValue(':lastname', $lastname, \PDO::PARAM_STR);
+        $statement->bindValue(':firstname', $firstname, PDO::PARAM_STR);
+        $statement->bindValue(':lastname', $lastname, PDO::PARAM_STR);
 
         // Execution of the query
         $statement->execute();
