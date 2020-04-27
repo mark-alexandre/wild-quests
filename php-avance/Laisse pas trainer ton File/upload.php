@@ -80,9 +80,6 @@
 
 <?php
 
-$root = $_SERVER["DOCUMENT_ROOT"];
-$dir = $root . '/upload/';
-
 // Create the upload dir if it doesn't exist
 if (!mkdir("./upload", 0777, true) && !is_dir("./upload")) {
     throw new \RuntimeException(sprintf('Directory "%s" was not created', "./upload"));
