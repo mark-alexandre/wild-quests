@@ -191,7 +191,6 @@ class Car
         {
             $this->color = $energy;
         }
-        
     }
 
     /**
@@ -203,6 +202,6 @@ class Car
         if( $energyLevel >= 0 && $energyLevel <= 100)
         {
             $this->energyLevel = $energyLevel;
-        }        
+        }
     }
 }
