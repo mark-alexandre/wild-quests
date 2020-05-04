@@ -1,3 +1,121 @@
+/* Addition for the SCSS quest */
+.ring-1 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: none;
+    border: solid 18px grey;
+    position: absolute;
+    left: 56.67%;
+}
+
+.orangeRing {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: none;
+    border: solid 7.5px orange;
+}
+
+.ring-2 {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: none;
+    border: solid 16px grey;
+    position: absolute;
+    left: 53.34%;
+}
+
+.orangeRing {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: none;
+    border: solid 7.5px orange;
+}
+
+.ring-3 {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: none;
+    border: solid 14px grey;
+    position: absolute;
+    left: 50.01%;
+}
+
+.orangeRing {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: none;
+    border: solid 7.5px orange;
+}
+
+.ring-4 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: none;
+    border: solid 12px grey;
+    position: absolute;
+    left: 46.68%;
+}
+
+.orangeRing {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: none;
+    border: solid 7.5px orange;
+}
+
+.ring-5 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: none;
+    border: solid 10px grey;
+    position: absolute;
+    left: 43.35%;
+}
+
+.orangeRing {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: none;
+    border: solid 7.5px orange;
+}
+
+.ring-6 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: none;
+    border: solid 8px grey;
+    position: absolute;
+    left: 40.02%;
+}
+
+.orangeRing {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: none;
+    border: solid 7.5px orange;
+}
+
+.theOne {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: none;
+    border: solid 15px #ffe320;
+}
+
+
 /* @font-face */
 
 /* Symbols wrapping titles */
@@ -109,7 +227,7 @@ select#form-select {
 }
 
 body {
-    background: url("../12/assets/img/bg.jpg") no-repeat center fixed;
+    background: url("./assets/img/bg.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
