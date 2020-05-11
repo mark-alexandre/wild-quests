@@ -13,12 +13,12 @@
     position: absolute;
     left: 60% - 3.33 * $i;
   }
-
-  .orangeRing {
-    @include myRings( 75px, orange);
-  }
 }
 
 .theOne {
   @include myRings(150px);
+}
+
+.orangeRing {
+  @include myRings( 75px, orange);
 }
